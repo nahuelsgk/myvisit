@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">MyVisit</string>
+    <string name="creator">Create a new Surprise</string>
+    <string name="camera">Take a Picture!</string>
+    <string name="record_audio">Record audio!</string>
+    <string name="start_record">Start recording</string>
+    <string name="stop_record">Stop recording</string>
+    <string name="start_listen">Listen</string>
+    <string name="stop_listen">Stop listening</string>
+    <string name="listen_audio">Listen audio sample</string>
+    <string name="save">Save</string>
+    <string name="clear">Clear all!</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="button_text">Create a surprise</string>
+    <string name="surprise_hint">What is it!?</string>
+    <string name="surprise_notes">Notes about this surprise</string>
+    <string name="myFollowedSurprises">my followed surprises</string>
+    <string name="myNearSurprises">my near surprises</string>
+    <string name="list">List</string>
+    <string name="new_surprise">New Surprise</string>
+    <string name="map">Map</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="register">register</string>
+    <string name="login">login</string>
+    <string name="successfulLogin">"Welcome "</string>
+    <string name="email">email address</string>
+    <string name="passwordConfirm">password (please confirm)</string>
+    <string name="passwordMin6char">password (min 6 char.)</string>
+    <string name="passwordMismatch">passwords don\'t match</string>
+    <string name="unknownError">unknown error</string>
+    <string name="usernameExists">This username is already in use.</string>
+    <string name="emailExists">This email is already registered.</string>
+    <string name="logout">logout</string>
+    <string name="logoutConfirmation">Are you sure you want to logout?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="invalidUsername">This username is not registered.\nPress the register button to register a new user.</string>
+    <string name="loginFailed">Wrong username/password combination.</string>
+    
+    
+</resources>

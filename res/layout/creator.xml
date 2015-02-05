@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PORTRAIT -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" >
+
+
+<LinearLayout
+android:layout_weight="1"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content" >
+<ScrollView
+android:id="@+id/scroll_view"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    >
+    	
+	<EditText
+        android:id="@+id/surprise_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:hint="@string/surprise_hint"
+        android:inputType="text"
+        android:imeOptions="actionDone"/>
+	
+	<ImageView android:id="@+id/photo_view"
+	android:layout_width="wrap_content"
+	android:layout_marginLeft="20dip"
+	android:layout_marginRight="20dip"
+	android:layout_marginBottom="20dip"
+	android:background="@drawable/border_selector"
+	android:layout_height="wrap_content" />
+	
+	<!-- View android:layout_weight="1" android:layout_width="0dp" android:layout_height="0dp" /-->
+	
+	<Button android:id="@+id/camera_button"
+	android:text="@string/camera"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:layout_marginTop="20dip"
+	android:layout_marginBottom="20dip" />
+	
+	<RatingBar android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:numStars="3"
+        android:stepSize="1.0"
+        android:layout_marginBottom="20dip" />
+	
+	<EditText
+        android:id="@+id/surprise_notes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="top"
+        android:hint="@string/surprise_notes"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+       
+       	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginBottom="10dip"
+    android:layout_marginTop="10dip" >
+       
+       	<View
+    android:layout_height="1dip"
+    android:layout_width="1dip"
+    android:layout_weight="1" />
+       
+    <Button android:id="@+id/audio_button"
+	android:text="@string/record_audio"
+	android:layout_height="wrap_content"
+	android:layout_width="1dip"
+	android:layout_weight="2"
+	android:layout_marginBottom="20dip" />
+	
+	<Button android:id="@+id/audio_listen_button"
+	android:text="@string/listen_audio"
+	android:layout_height="wrap_content"
+	android:layout_width="1dip"
+	android:layout_weight="2"
+	android:layout_marginBottom="20dip" />
+	
+		<View
+    android:layout_height="1dip"
+    android:layout_width="1dip"
+    android:layout_weight="1" />
+	
+	</LinearLayout>
+	
+	</LinearLayout>
+	
+	</ScrollView>
+	</LinearLayout>
+	
+	<View
+    android:layout_height="2dip"
+    android:layout_width="fill_parent"
+    android:background="#FF909090" />
+	
+	
+	<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginBottom="10dip"
+    android:layout_marginTop="10dip" >
+    
+    <Button android:id="@+id/save_button"
+	android:text="@string/save"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:layout_width="1dip"/>
+	
+	<Button android:id="@+id/clear_button"
+	android:text="@string/clear"
+	android:layout_weight="1"
+	android:layout_height="wrap_content"
+	android:layout_width="1dip"/>
+	
+	
+	</LinearLayout>
+
+</LinearLayout>

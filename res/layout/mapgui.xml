@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <com.google.android.maps.MapView 
+    	android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:enabled="true"
+        android:clickable="true"
+        android:apiKey="0pe2wDxzIsDlYqPRzPtulEWpThYIFBZS0hV-POA"
+        />
+     <!-- android:apiKey="03rxuF7fapbq1X2hOOo4m4RyKaZDyLE2ielKxMw" -->
+     
+     <!-- 
+    <LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center_vertical" >
+    	<TextView android:text="Coords received: " android:id="@+id/textCoor" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    	<TextView android:text="Parse latitude recibed here..." android:id="@+id/lat" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    	<TextView android:text=" , " android:id="@+id/separator" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    	<TextView android:text="Parse longitude recibed here..." android:id="@+id/lon" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1">
+    	<TextView android:text="Welcome to: " android:id="@+id/city" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+		<TextView android:text="Parse which city recibed here..." android:id="@+id/cityLabel" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	</LinearLayout>
+	<Button android:id="@+id/button"
+	android:text="@string/button_text"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" />
+	 -->
+</LinearLayout>
